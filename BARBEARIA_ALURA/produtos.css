@@ -1,0 +1,124 @@
+body{
+    font-family: 'Roboto';
+}
+
+header{
+    background: #bbb;
+    padding: 20px 0px;
+
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+
+}
+    
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none; 
+
+
+}
+
+nav a:hover{
+    color: #C78C19;
+    text-decoration:underline;
+}
+
+
+
+
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
+
+.produtos li{
+    display: inline-block;
+    align-items: center;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 10px;
+	box-sizing: border-box;
+	border: 5px solid #000000;
+	border-radius: 10px 20px 20px 20px;
+}
+
+.produtos h2{
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+     
+}
+
+.produtos li:hover {
+    border-color: #ffb623;
+}
+
+.produtos li:active{
+    border-color: #b77d07;
+    color: #b77d07;
+}
+
+.produtos li:hover h2{
+    border-color: #ffb623;
+    font-size: 33px;
+    color: #ffb623
+}
+
+.produtos li:active h2{
+    font-size: 33px;
+    color: #b77d07;
+    
+}
+
+
+
+.descr-produto{
+    font-weight: bold;
+    font-size: 1.2em;
+    
+}
+
+.preco-produto{
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 10px;
+    
+}
+
+footer {
+    text-align: center;
+    background: url('img/bg.jpg');
+    padding: 40px 0;
+    
+}
+
+.copyright{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 20px;
+    
+}
